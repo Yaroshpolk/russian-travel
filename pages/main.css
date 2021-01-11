@@ -1,0 +1,66 @@
+/*
+    Подключение стилей главной страницы
+ */
+
+/* normalize.css */
+@import "../vendor/normalize/normalize.css";
+
+/* Шрифты */
+@import "../vendor/fonts/Inter/inter.css";
+
+/* root */
+@import "../blocks/root/root.css";
+
+/* content */
+@import "../blocks/content/content.css";
+
+/* header */
+@import "../blocks/header/header.css";
+@import "../blocks/header/__lang/header__lang.css";
+@import "../blocks/header/__lang-item/header__lang-item.css";
+@import "../blocks/header/__lang-link/header__lang-link.css";
+@import "../blocks/header/__lang-link/_underlined/header__lang-link_underlined.css";
+
+/* lead */
+@import "../blocks/lead/lead.css";
+@import "../blocks/lead/__title/lead__title.css";
+@import "../blocks/lead/__subtitle/lead__subtitle.css";
+@import "../blocks/lead/__image/lead__image.css";
+@import "../blocks/lead/__caption/lead__caption.css";
+
+/* intro */
+@import "../blocks/intro/intro.css";
+@import "../blocks/intro/__title/intro__title.css";
+@import "../blocks/intro/__list/intro__list.css";
+@import "../blocks/intro/__text/intro__text.css";
+@import "../blocks/intro/__list-item/intro__list-item.css";
+
+/* photo-grid */
+@import "../blocks/photo-grid/photo-grid.css";
+@import "../blocks/photo-grid/__item/photo-grid__item.css";
+
+/* places */
+@import "../blocks/places/places.css";
+@import "../blocks/place/place.css";
+@import "../blocks/place/__title/place__title.css";
+@import "../blocks/place/__image/place__image.css";
+@import "../blocks/place/__paragraph/place__paragraph.css";
+@import "../blocks/place/__website/place__website.css";
+@import "../blocks/place/__link/place__link.css";
+@import "../blocks/place/__url-heading/place__url-heading.css";
+
+/* cover */
+@import "../blocks/cover/cover.css";
+@import "../blocks/cover/__title/cover__title.css";
+@import "../blocks/cover/__subtitle/cover__subtitle.css";
+@import "../blocks/cover/__background/cover__background.css";
+@import "../blocks/cover/__overlay/cover__overlay.css";
+
+/* footer */
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__menu/footer__menu.css";
+@import "../blocks/footer/__menu-item/footer__menu-item.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";
+
+

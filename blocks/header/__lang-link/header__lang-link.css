@@ -1,0 +1,13 @@
+.header__lang-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__lang-link:last-child {
+    margin-left: 18px;
+}
+
+.header__lang-link:hover {
+    transition: .3s;
+    opacity: .8;
+}

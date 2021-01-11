@@ -1,0 +1,10 @@
+.cover {
+    position: relative;
+}
+
+.cover:hover .cover__background
+{
+    transition: .5s;
+    opacity: .3;
+    cursor: pointer;
+}
