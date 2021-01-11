@@ -8,3 +8,10 @@
     opacity: .3;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1024px){
+    .cover {
+        margin-left: -48px;
+        margin-right: -48px;
+    }
+}
