@@ -1,8 +1,10 @@
 .header__lang {
     list-style: none;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
     margin: 0;
     align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
