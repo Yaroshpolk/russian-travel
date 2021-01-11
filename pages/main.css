@@ -35,7 +35,7 @@
 @import "../blocks/intro/__list/intro__list.css";
 @import "../blocks/intro/__text/intro__text.css";
 @import "../blocks/intro/__list-item/intro__list-item.css";
-@import "../blocks/intro/__text/_str/intro__text_str.css";
+@import "../blocks/intro/__list-text/_str/intro__list-text_str.css";
 
 /* photo-grid */
 @import "../blocks/photo-grid/photo-grid.css";
