@@ -6,5 +6,16 @@
     text-align: center;
     align-self: center;
     max-width: 360px;
-    margin: 0;
+
+    margin: 32px 0 0 0;
+}
+
+
+@media screen and (max-width: 320px){
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 288px;
+        margin-top: 16px;
+    }
 }

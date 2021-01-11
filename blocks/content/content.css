@@ -1,7 +1,6 @@
 .content {
     margin: 0 auto;
     max-width: 1184px;
-    border: 1px solid rebeccapurple;
 }
 
 @media screen and (max-width: 1270px){
@@ -13,5 +12,11 @@
 @media screen and (max-width: 800px){
     .content {
         margin: 0 24px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .content {
+        margin: 0 16px;
     }
 }
